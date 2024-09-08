@@ -1,0 +1,90 @@
+-- Merging decision tree log ---
+manifest
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:2:1-45:12
+	package
+		INJECTED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:3:5-79
+	android:name
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:3:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.INTERNET
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:6:22-74
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:7:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:8:5-10:38
+	android:minSdkVersion
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:10:9-35
+	android:name
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:9:9-73
+application
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:12:5-44:19
+service#dev.dev7.lib.v2ray.services.V2rayVPNService
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:13:9-29:19
+	android:process
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:19:13-51
+	android:label
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:17:13-44
+	android:exported
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:15:13-37
+	android:permission
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:18:13-69
+	android:foregroundServiceType
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:16:13-55
+	android:name
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:14:13-71
+intent-filter#action:name:android.net.VpnService
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:20:13-22:29
+action#android.net.VpnService
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:21:17-65
+	android:name
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:21:25-62
+meta-data#android.net.VpnService.SUPPORTS_ALWAYS_ON
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:23:13-25:40
+	android:value
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:25:17-37
+	android:name
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:24:17-73
+property#android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:26:13-28:39
+	android:value
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:28:17-36
+	android:name
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:27:17-76
+service#dev.dev7.lib.v2ray.services.V2rayProxyService
+ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:32:9-42:19
+	android:process
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:38:13-51
+	android:label
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:36:13-46
+	android:exported
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:34:13-37
+	android:permission
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:37:13-69
+	android:foregroundServiceType
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:35:13-55
+	android:name
+		ADDED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:33:13-73
+uses-sdk
+INJECTED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml
+INJECTED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml

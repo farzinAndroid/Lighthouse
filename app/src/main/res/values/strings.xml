@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lighthouse</string>
+    <string name="on_text">ON</string>
+    <string name="off_text">OFF</string>
+    <string name="loading">Loading…</string>
+    <string name="registering">Registering…</string>
+    <string name="authenticating">Authenticating user…</string>
+    <string name="loading_servers">Loading servers…</string>
+    <string name="getting_server_delays">Getting server delays…</string>
+    <string name="tend_to_light">Tend to Light</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_caption">At Lighthouse VPN, we prioritize your privacy. We collect minimal personal information, such as your email address for account creation and maintenance. Additionally, we collect usage data, including connection timestamps and server locations, to enhance our service and ensure its security. We implement robust security measures to protect your data and do not sell, trade, or rent your personal information to third parties. However, we may share information with trusted service providers to help us operate our service or comply with legal requirements.</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="cancel">Cancel</string>
+    <string name="update_to_new_version">Update to new version</string>
+    <string name="update">Update</string>
+    <string name="report_issue">Report Issue</string>
+    <string name="disabled_user_register">Disabled User Register</string>
+    <string name="disabled_user_reg_caption">Thank you for your interest in our VPN service. Unfortunately, we have reached our maximum capacity and cannot accept new registrations at this time. We are working diligently to expand our services and will notify you as soon as we can accommodate new users.</string>
+    <string name="under_construction">Under Construction</string>
+    <string name="under_construction_caption">We are currently maintaining our app. We\'ll be back soon. Thank you for your patience.</string>
+</resources>

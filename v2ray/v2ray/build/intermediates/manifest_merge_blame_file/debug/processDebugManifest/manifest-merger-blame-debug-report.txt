@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dev.dev7.lib.v2ray" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+6
+7    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+7-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:3:5-79
+7-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:3:22-76
+8    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+8-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:4:5-79
+8-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:4:22-76
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:5:5-67
+9-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:5:22-64
+10    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+10-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:6:5-77
+10-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:6:22-74
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:7:5-77
+11-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:7:22-74
+12    <uses-permission
+12-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:8:5-10:38
+13        android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+13-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:9:9-73
+14        android:minSdkVersion="34" />
+14-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:10:9-35
+15
+16    <application>
+16-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:12:5-44:19
+17        <service
+17-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:13:9-29:19
+18            android:name="dev.dev7.lib.v2ray.services.V2rayVPNService"
+18-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:14:13-71
+19            android:exported="false"
+19-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:15:13-37
+20            android:foregroundServiceType="specialUse"
+20-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:16:13-55
+21            android:label="V2rayVPNService"
+21-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:17:13-44
+22            android:permission="android.permission.BIND_VPN_SERVICE"
+22-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:18:13-69
+23            android:process=":RunSoLibV2RayDaemon" >
+23-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:19:13-51
+24            <intent-filter>
+24-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:20:13-22:29
+25                <action android:name="android.net.VpnService" />
+25-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:21:17-65
+25-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:21:25-62
+26            </intent-filter>
+27
+28            <meta-data
+28-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:23:13-25:40
+29                android:name="android.net.VpnService.SUPPORTS_ALWAYS_ON"
+29-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:24:17-73
+30                android:value="true" />
+30-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:25:17-37
+31
+32            <property
+32-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:26:13-28:39
+33                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+33-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:27:17-76
+34                android:value="vpn" />
+34-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:28:17-36
+35        </service>
+36        <service
+36-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:32:9-42:19
+37            android:name="dev.dev7.lib.v2ray.services.V2rayProxyService"
+37-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:33:13-73
+38            android:exported="false"
+38-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:34:13-37
+39            android:foregroundServiceType="specialUse"
+39-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:35:13-55
+40            android:label="V2rayProxyService"
+40-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:36:13-46
+41            android:permission="android.permission.BIND_VPN_SERVICE"
+41-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:37:13-69
+42            android:process=":RunSoLibV2RayDaemon" >
+42-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:38:13-51
+43            <property
+43-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:26:13-28:39
+44                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+44-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:27:17-76
+45                android:value="proxy" />
+45-->Y:\Users\farzin\AndroidStudioProjects\V2ray-simple-core\V2ray-Android\v2ray\src\main\AndroidManifest.xml:28:17-36
+46        </service>
+47    </application>
+48
+49</manifest>
